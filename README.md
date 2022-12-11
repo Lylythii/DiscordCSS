@@ -1,5 +1,6 @@
 
 ### Disable Snowsgiving Button
+#### hides links in chat...
 ```
 /* Disable Snowsgiving Button */
 .anchorUnderlineOnHover-2qPutX{display:none}
