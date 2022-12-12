@@ -35,3 +35,14 @@ display: none;
 background: none!important;
 }
 ```
+
+### Change Discord Font
+```
+/* Change Font */
+::placeholder, body, button, input, select, textarea {
+font-family: "gabriola";
+
+text-rendering: optimizeLegibility;
+
+}
+```
