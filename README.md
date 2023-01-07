@@ -52,3 +52,10 @@ text-rendering: optimizeLegibility;
 /* Remove Offline User gray-out */
 .offline-22aM7E{display:none}
 ```
+### Inset Messages
+```
+/* Inset Messages */
+.message-2CShn3 {
+	border: 1.5px inset #202225;
+}
+```
