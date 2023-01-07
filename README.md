@@ -46,3 +46,9 @@ text-rendering: optimizeLegibility;
 
 }
 ```
+
+### Remove Offline User gray-out
+```
+/* Remove Offline User gray-out */
+.offline-22aM7E{display:none}
+```
