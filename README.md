@@ -47,11 +47,20 @@ text-rendering: optimizeLegibility;
 }
 ```
 
-### Remove Offline User gray-out
+### Remove Offline Users
 ```
-/* Remove Offline User gray-out */
+/* Remove Offline Users */
 .offline-22aM7E{display:none}
 ```
+
+### Remove Offline User gray-out
+```
+/* Remove Offline User gray-out */ /* Default opacity; .3 */
+.offline-22aM7E {
+    opacity: 1;
+}
+```
+
 ### Inset Messages
 ```
 /* Inset Messages */
