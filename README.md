@@ -69,6 +69,11 @@ text-rendering: optimizeLegibility;
 }
 ```
 
+### Remove "Now Playing" in Friends Tab
+```
+.nowPlayingColumn-1eCBCN{display:none};
+```
+
 ### Edit Users/Servers
 ##### (Should work with any image url.)
 - Replace Profile Picture
