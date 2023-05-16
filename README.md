@@ -1,6 +1,6 @@
 
 ### Disable Snowsgiving Button
-#### hides links in chat...
+- (bugged) hides links in chat...
 ```
 /* Disable Snowsgiving Button */
 .anchorUnderlineOnHover-2qPutX{display:none}
@@ -66,5 +66,26 @@ text-rendering: optimizeLegibility;
 /* Inset Messages */
 .message-2CShn3 {
 	border: 1.5px inset #202225;
+}
+```
+
+### Edit Users/Servers
+##### (Should work with any image url.)
+- Replace Profile Picture
+```
+[src^="https://cdn.discordapp.com/avatars/USER_ID/"] {
+    content: url(URL_TO_IMAGE);
+}
+```
+- Replace Server Icon
+```
+[src^="https://cdn.discordapp.com/icons/SERVER_ID/"] {
+    content: url(URL_TO_IMAGE);
+}
+```
+- Replace Emoji
+```
+[src^="https://cdn.discordapp.com/emojis/EMOJI_ID/"] {
+    content: url(URL_TO_IMAGE);
 }
 ```
